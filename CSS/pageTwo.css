@@ -1,0 +1,135 @@
+a.diff{
+boder: 2px solid black;
+background-color: black;
+}
+
+a.diff:hover {
+background color: black;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: white;
+}
+
+a:hover {
+background-color: blue;
+border: 2px solid white;
+}
+
+body {
+background: #0a1028 url(pics/fnafLogo.webp) no-repeat center 100px fixed;
+}
+
+
+p.menu {
+font-size: 30px;
+color: white;
+list-style-type: none;
+background-color: #3a4a8c;
+text-align: center;
+word-spacing: 20px;
+margin: 2% 5% 0;
+}
+
+p.menu:hover, dt:hover{
+border: 4px solid blue;
+}
+
+dl {
+color: white;
+text-align: center;
+font-size: 40px;
+}
+
+dt {
+background-color: #2543bd;
+margin: 2% 30%;
+}
+
+dd {
+background: rgba(97, 115, 187, .5);
+margin: 0 10%;
+}
+
+@keyframes fadingOne {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.fadeOne {
+animation-name: fadingOne;
+animation-duration: 1s;
+animation-fill-mode: backwards;
+animation-delay: .5s;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes fadingTwo {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.fadeTwo {
+animation-name: fadingTwo;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-fill-mode: backwards;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes fadingThree {
+from {opacity: 0;}
+to {opacity: 1;}
+}
+
+.fadeThree {
+animation-name: fadingThree;
+animation-duration: 1s;
+animation-delay: 1.5s;
+animation-fill-mode: backwards;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes slideOne {
+0% {left: 100px; opacity: 0;}
+100% {left: 0px; opacity: 1;}
+}
+
+.animateOne {
+animation-name: slideOne;
+animation-duration: 1s;
+position: relative;
+animation-timing-function: elastic-in;
+}
+
+@keyframes slideTwo {
+0% {right: 100px; opacity: 0;}
+100% {right: 0px; opacity: 1;}
+}
+
+.animateTwo {
+animation-name: slideTwo;
+animation-duration: 1s;
+animation-delay: .5s;
+animation-fill-mode: backwards;
+position: relative;
+animation-timing-function: elastic-in;
+}
+
+@keyframes slideThree {
+0% {left: 100px; opacity: 0;}
+100% {left: 0px; opacity: 1;}
+}
+
+.animateThree {
+animation-name: slideThree;
+animation-duration: 1s;
+animation-delay: 1s;
+animation-fill-mode: backwards;
+position: relative;
+animation-timing-function: elastic-in;
+}
